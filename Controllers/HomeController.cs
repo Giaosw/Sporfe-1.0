@@ -10,6 +10,12 @@ namespace Sporfe_1._0.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly SprofeContext _context;
+        public HomeController(SprofeContext context)
+        {
+            this._context = context;
+
+        }
         public IActionResult Index()
         {
             return View();
