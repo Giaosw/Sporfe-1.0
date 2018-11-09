@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sporfe_1._0.Models;
 
 namespace Sporfe1._0.Migrations
 {
     [DbContext(typeof(SprofeContext))]
-    partial class SprofeContextModelSnapshot : ModelSnapshot
+    [Migration("20181109013309_Creacion")]
+    partial class Creacion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

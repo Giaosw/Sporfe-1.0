@@ -2,7 +2,7 @@
 
 namespace Sporfe1._0.Migrations
 {
-    public partial class CreacionDb : Migration
+    public partial class Creacion : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Sporfe_1._0.Models
@@ -6,13 +7,11 @@ namespace Sporfe_1._0.Models
     public class Curso
     {
         
-        public Curso(){
-            Profesores = new List<Profesor>();
-        }
-        public int Id { get; set; }
+        [Key]
+        public int IdCurso { get; set; }
         public string Nombre { get; set; }
         [NotMapped]
-        public List<Profesor> Profesores { get; set; }
+        public List<ProfesorCurso> ProfesorCurso { get; set; }
         
     }
 }

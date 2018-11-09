@@ -6,24 +6,21 @@ namespace Sporfe_1._0.Models
 {
     public class Profesor
     {
-        public Profesor(){
-            Alumnos = new List<Alumno>();
-            Cursos = new List<Curso>();
-        }
-        public int Id { get; set; }
+        [Key]
+        public int IdProfesor { get; set; }
         [Required]
         public string Nombre { get; set; }
         public int Edad { get; set; }
         
         public string correo { get; set; }
-        public int AniosEsperiencia { get; set; }
+        public int AniosExperiencia { get; set; }
         
         public Calificacion calificacion { get; set; }
         public string comentario { get; set; }
-        public List<Curso> Cursos { get; set; }
+        public List<ProfesorCurso> ProfesorCurso { get; set; }
         //public int CursoId { get; set; }
         
-        public List<Alumno> Alumnos { get; set; }
+        public List<ProfesorAlumno> ProfesorAlumno { get; set; }
         //public int AlumnoId { get; set; }
         
 
