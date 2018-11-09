@@ -11,7 +11,7 @@ namespace Sporfe_1._0.Models
         [Required]
         public string Nombre { get; set; }
         public int Edad { get; set; }
-        
+        public string Foto { get; set; }
         public string correo { get; set; }
         public int AniosExperiencia { get; set; }
         

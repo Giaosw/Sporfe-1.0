@@ -9,8 +9,8 @@ using Sporfe_1._0.Models;
 namespace Sporfe1._0.Migrations
 {
     [DbContext(typeof(SprofeContext))]
-    [Migration("20181109013309_Creacion")]
-    partial class Creacion
+    [Migration("20181109022735_confe")]
+    partial class confe
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

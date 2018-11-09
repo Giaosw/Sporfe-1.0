@@ -1,3 +1,4 @@
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Sporfe_1._0.Models;
 
@@ -13,11 +14,16 @@ namespace Sporfe_1._0.Controllers
         }
         public IActionResult IndexIs()
         {
-            return View();
+            var lista = _context.Profesor.ToList();
+            return View(lista);
         }
                 public IActionResult Proinfo()
         {
             return View();
+        }
+        public IActionResult CerrarSesion(){
+
+            return RedirectToAction("Index","Home");
         }
     }
 }

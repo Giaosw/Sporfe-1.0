@@ -9,8 +9,8 @@ using Sporfe_1._0.Models;
 namespace Sporfe1._0.Migrations
 {
     [DbContext(typeof(SprofeContext))]
-    [Migration("20181109012727_CrecionBd")]
-    partial class CrecionBd
+    [Migration("20181109055527_fotoprofes")]
+    partial class fotoprofes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -75,6 +75,8 @@ namespace Sporfe1._0.Migrations
                     b.Property<int>("AniosExperiencia");
 
                     b.Property<int>("Edad");
+
+                    b.Property<string>("Foto");
 
                     b.Property<string>("Nombre")
                         .IsRequired();

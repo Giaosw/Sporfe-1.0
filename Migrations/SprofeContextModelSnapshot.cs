@@ -74,6 +74,8 @@ namespace Sporfe1._0.Migrations
 
                     b.Property<int>("Edad");
 
+                    b.Property<string>("Foto");
+
                     b.Property<string>("Nombre")
                         .IsRequired();
 
