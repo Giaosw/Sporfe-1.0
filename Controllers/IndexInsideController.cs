@@ -31,5 +31,6 @@ namespace Sporfe_1._0.Controllers
 
             return RedirectToAction("Index","Home");
         }
+        
     }
 }
