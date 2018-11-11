@@ -1,42 +1,86 @@
- 
+@model List<Profesor>
     <main role="main">
         <div class="container-fluid">
             <div class="row">
                <div class="col-2"></div>
-               <div class="col-8">
-                   <div class="row">
-                       <div class="col-4 text-center">
-                            <i class="fas fa-user fa-7x text-center mt-3"></i>
-                       </div>
-                       <div class="col-8">
-                        <h3>Datos: </h3>
-                        <h5>Nombre:</h5>
-                        <h5>Edad:</h5>
-                        <h5>Correo:</h5>
-                        <h5>Años de experiencia:</h5>
-                        <a href="#" class="btn btn-outline-primary">Califica a este profesor</a>
-
-                       </div>
-                   </div>
-                   <h3>Estadisticas:</h3>
-                   <h5>Calificación general</h5>
+                  <div class="col-8">
+                    <div class="row">
+                     @foreach(var Profesor in Model) {
+                      <div class="col-4 text-center">
+                           <img src="@Profesor.Foto" class="card-img-top"height="200" width="40">
+                      </div>
+                       
+                          <div class="col-8">
+                            <h3>Datos: </h3>
+                            <h5>Nombre: @Profesor.Nombre</h5>
+                            <h5>Edad: @Profesor.Edad</h5>
+                            <h5>Correo: @Profesor.correo</h5>
+                            <h5>Años de experiencia: @Profesor.AniosExperiencia</h5>
+                            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Califica a este profesor</button>
+                          </div>
+                     }
+                          </div>
+                            <div class="">
+                              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="ml-5">
+                                  <form asp-action="" method="post">
+                                  <div class=" form-group">
+                                    <label for="exampleFormControlSelect1">Calificación Enseñanza</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                  <div class=" form-group">
+                                    <label for="exampleFormControlSelect1">Calificación Como evalua</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                    <div class=" form-group">
+                                    <label for="exampleFormControlSelect1">Calificación Que tan beuna gente es</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                  <button class="btn btn-outline-primary" type="submit" >Calificar</button>
+                                  </form>
+                                </div>
+			                            
+                              </div>
+                            </div>
+                            <h3>Estadisticas:</h3>
+                            <h5>Calificación general</h5>
                    <div class="progress mb-2">
                     <div class="progress-bar " role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                   </div>
-                  <h5>Calificación general</h5>
+                  <h5>Calificación Enseñanza</h5>
                   <div class="progress mb-2">
                     <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                   </div>
-                  <h5>Calificación general</h5>                           <div class="progress mb-2">
+                  <h5>Calificación Como evalua</h5>                           <div class="progress mb-2">
                     <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                   </div>
-                  <h5>Calificación general</h5>
+                  <h5>Calificación Que tan beuna gente es</h5>
                   <div class="progress mb-2">
                     <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                   </div>
+                          
                   <div class="border border-secondary"">
                         los comentarios apareceran aqui
                   </div>
+                  
                   <form>
                     <div class="form-group">
                       <label for="comentario">Ingresa un comentario</label>
@@ -46,11 +90,11 @@
 
                   </form>
                </div>
-               <div class="col-2"></div>
-            </div>
+            <div class="col-2"></div>
+          </div>
             
         </div>
     
           
     
-        </main>
+    </main>

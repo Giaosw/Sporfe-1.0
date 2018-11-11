@@ -18,12 +18,15 @@ namespace Sporfe_1._0.Controllers
             return View(lista);
         }
 
-        public IActionResult Proinfo(int id)
+
+
+
+        public IActionResult Proinfo()
         {   
-            var prof  =  _context.Profesor.Where(p => p.IdProfesor == id).First();
-            ViewBag.Profesor = new SelectList(_context-Profesor, "IdProfesor","Nombre");
-        
-            return View();
+            var lista = _context.Profesor.Where(p => p.IdProfesor == 2).ToList();
+            
+            
+            return View(lista);
         }
 
         public IActionResult CerrarSesion(){

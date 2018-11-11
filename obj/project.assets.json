@@ -11580,11 +11580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\Sporfe 1.0.csproj",
+      "projectUniqueName": "c:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\Sporfe 1.0.csproj",
       "projectName": "Sporfe 1.0",
-      "projectPath": "C:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\Sporfe 1.0.csproj",
+      "projectPath": "c:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\Sporfe 1.0.csproj",
       "packagesPath": "C:\\Users\\10.10.11.11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\obj\\",
+      "outputPath": "c:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

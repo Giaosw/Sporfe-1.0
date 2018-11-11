@@ -122,3 +122,5 @@ C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.Vie
 C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.dll
 C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.pdb
 C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CopyComplete
+C:\Users\Alex\Desktop\multiplataforma\TrabajoFinal\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
+C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
