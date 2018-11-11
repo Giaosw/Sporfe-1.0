@@ -17,10 +17,16 @@ namespace Sporfe_1._0.Controllers
             var lista = _context.Profesor.ToList();
             return View(lista);
         }
-                public IActionResult Proinfo()
+
+        public IActionResult Proinfo(int id)
         {
+            
+            
+
+            
             return View();
         }
+
         public IActionResult CerrarSesion(){
 
             return RedirectToAction("Index","Home");
