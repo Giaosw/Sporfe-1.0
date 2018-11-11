@@ -38,7 +38,20 @@ namespace Sporfe_1._0.Controllers
         public IActionResult ConfirmarRegistro(){
             return View();
         }
-       
+       [HttpPost]
+        public IActionResult ProcesarIngreso(string correo, string contraseña){
+            if (ModelState.IsValid)
+            {
+                    var obj =  _context.Alumno.Where(a => a.correo == correo && a.Contraseña == contraseña);
+                    if (obj.ToString() != null)
+                    {
+                        return RedirectToAction("IndexIs", "IndexInside");
+                    }
+
+            }
+            return RedirectToAction("Index");
+         }
+
 
    }
 }

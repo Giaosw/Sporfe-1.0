@@ -82,7 +82,7 @@ using Sporfe_1._0.Models;
                                 ");
             EndContext();
             BeginContext(1012, 1277, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "29467840c6c1467dba65b8504fc34261", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e571e5f78504fd1a5aca1bf65a6a6ca", async() => {
                 BeginContext(1018, 1264, true);
                 WriteLiteral(@"
                                     <div class=""form-group row"">
@@ -133,7 +133,7 @@ using Sporfe_1._0.Models;
                                 ");
             EndContext();
             BeginContext(3114, 2652, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "005ab2375934419e87dd4de9cb0f1356", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4476626b4d34ca9952c8b751370e1d2", async() => {
                 BeginContext(3120, 2639, true);
                 WriteLiteral(@"
                                     <div class=""form-group row"">
@@ -224,7 +224,7 @@ WriteAttributeValue("", 6472, Profesor.Foto, 6472, 14, false);
             WriteLiteral(" class=\"card-img-top\"height=\"200\" width=\"40\">\r\n                ");
             EndContext();
             BeginContext(6550, 555, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "24780751afe94efdad31f9c5f77d4211", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f9a2aea98bce4367bd5a1fe93fcd8e33", async() => {
                 BeginContext(6682, 67, true);
                 WriteLiteral("\r\n                <div class=\"card-body\">\r\n                    <h5>");
                 EndContext();
