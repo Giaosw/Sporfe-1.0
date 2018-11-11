@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\Alex\\Desktop\\multiplataforma\\TrabajoFinal\\Sporfe-1.0\\Sporfe 1.0.csproj",
+  "ProjectFilePath": "c:\\Users\\10.10.11.11\\Downloads\\Sporfe-1.0\\Sporfe 1.0.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "MVC-2.1",
-    "LanguageVersion": "2.1",
-    "Extensions": [
-      {
-        "ExtensionName": "MVC-2.1"
-      }
-    ]
-  }
+  "Configuration": null
 }

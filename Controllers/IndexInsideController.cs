@@ -28,6 +28,10 @@ namespace Sporfe_1._0.Controllers
             return View(lista);
 
         }
+        public IActionResult votar(){
+
+            return RedirectToAction(IndexIs);
+        }
 
         public IActionResult CerrarSesion(){
 

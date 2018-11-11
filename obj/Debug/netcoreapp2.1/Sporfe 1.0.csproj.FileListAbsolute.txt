@@ -125,6 +125,5 @@ C:\Users\Alex\Desktop\multiplataforma\TrabajoFinal\Sporfe-1.0\obj\Debug\netcorea
 C:\Users\Alex\Desktop\multiplataforma\TrabajoFinal\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.pdb
 C:\Users\Alex\Desktop\multiplataforma\TrabajoFinal\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CopyComplete
 =======
-C:\Users\Alex\Desktop\multiplataforma\TrabajoFinal\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
 C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
 >>>>>>> e738180564684015da48d2ba28bb02d756a72b49
