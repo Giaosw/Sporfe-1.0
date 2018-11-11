@@ -42,16 +42,16 @@ namespace Sporfe_1._0.Controllers
         public IActionResult ProcesarIngreso(string correo, string contraseña){
             if (ModelState.IsValid)
             {
-                    var obj =  _context.Alumno.Where(a => a.correo == correo && a.Contraseña == contraseña);
-                    if (obj.ToString() != null)
+                    var lista =  _context.Alumno.Where(a => a.correo == correo && a.Contraseña ==  contraseña).ToList();
+                    if (lista != null)
                     {
-                        return RedirectToAction("IndexIs", "IndexInside");
+                        return RedirectToAction("IndexIs","IndexInside");
                     }
 
             }
             return RedirectToAction("Index");
          }
-
+        
 
    }
 }

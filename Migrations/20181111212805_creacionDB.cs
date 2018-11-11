@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Sporfe1._0.Migrations
 {
-    public partial class confe : Migration
+    public partial class creacionDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,10 +13,10 @@ namespace Sporfe1._0.Migrations
                 {
                     IdAlumno = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nombre = table.Column<string>(nullable: true),
-                    Alias = table.Column<string>(nullable: true),
-                    correo = table.Column<string>(nullable: true),
-                    Contraseña = table.Column<string>(nullable: true)
+                    Nombre = table.Column<string>(nullable: false),
+                    Alias = table.Column<string>(nullable: false),
+                    correo = table.Column<string>(nullable: false),
+                    Contraseña = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -60,6 +60,7 @@ namespace Sporfe1._0.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Nombre = table.Column<string>(nullable: false),
                     Edad = table.Column<int>(nullable: false),
+                    Foto = table.Column<string>(nullable: true),
                     correo = table.Column<string>(nullable: true),
                     AniosExperiencia = table.Column<int>(nullable: false),
                     calificacionIdCalificacion = table.Column<int>(nullable: true),
