@@ -54,6 +54,7 @@ namespace Sporfe_1._0
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            
 
             app.UseMvc(routes =>
             {
@@ -63,4 +64,5 @@ namespace Sporfe_1._0
             });
         }
     }
+    
 }
