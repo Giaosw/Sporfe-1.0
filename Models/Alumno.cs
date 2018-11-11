@@ -8,12 +8,13 @@ namespace Sporfe_1._0.Models
     {
         [Key]
         public int IdAlumno { get; set; }
+        [Required]
         public string Nombre { get; set; }
-        
+        [Required]
         public string Alias { get; set; }
-       
+        [Required]
         public string correo { get; set; }
-        
+        [Required]
         public string Contraseña { get; set; }
         
         public List<ProfesorAlumno> ProfesorAlumno  { get; set; }

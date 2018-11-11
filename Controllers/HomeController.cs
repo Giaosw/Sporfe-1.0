@@ -25,5 +25,20 @@ namespace Sporfe_1._0.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
+        [HttpPost]
+        public IActionResult ProcesarRegistro(Alumno a){
+            if (ModelState.IsValid)
+            {
+                _context.Add(a);
+                _context.SaveChanges();
+                return RedirectToAction("ConfirmarRegistro");
+            }
+            return RedirectToAction("Index");
+        }
+        public IActionResult ConfirmarRegistro(){
+            return View();
+        }
+       
+
+   }
 }

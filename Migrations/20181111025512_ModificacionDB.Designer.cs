@@ -9,8 +9,8 @@ using Sporfe_1._0.Models;
 namespace Sporfe1._0.Migrations
 {
     [DbContext(typeof(SprofeContext))]
-    [Migration("20181109022735_confe")]
-    partial class confe
+    [Migration("20181111025512_ModificacionDB")]
+    partial class ModificacionDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,13 +24,17 @@ namespace Sporfe1._0.Migrations
                     b.Property<int>("IdAlumno")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Alias");
+                    b.Property<string>("Alias")
+                        .IsRequired();
 
-                    b.Property<string>("Contraseña");
+                    b.Property<string>("Contraseña")
+                        .IsRequired();
 
-                    b.Property<string>("Nombre");
+                    b.Property<string>("Nombre")
+                        .IsRequired();
 
-                    b.Property<string>("correo");
+                    b.Property<string>("correo")
+                        .IsRequired();
 
                     b.HasKey("IdAlumno");
 
@@ -75,6 +79,8 @@ namespace Sporfe1._0.Migrations
                     b.Property<int>("AniosExperiencia");
 
                     b.Property<int>("Edad");
+
+                    b.Property<string>("Foto");
 
                     b.Property<string>("Nombre")
                         .IsRequired();

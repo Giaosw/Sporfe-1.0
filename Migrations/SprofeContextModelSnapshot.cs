@@ -22,13 +22,17 @@ namespace Sporfe1._0.Migrations
                     b.Property<int>("IdAlumno")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Alias");
+                    b.Property<string>("Alias")
+                        .IsRequired();
 
-                    b.Property<string>("Contraseña");
+                    b.Property<string>("Contraseña")
+                        .IsRequired();
 
-                    b.Property<string>("Nombre");
+                    b.Property<string>("Nombre")
+                        .IsRequired();
 
-                    b.Property<string>("correo");
+                    b.Property<string>("correo")
+                        .IsRequired();
 
                     b.HasKey("IdAlumno");
 
