@@ -16,6 +16,7 @@ namespace Sporfe_1._0.Models
         public int AniosExperiencia { get; set; }
         
         public Calificacion calificacion { get; set; }
+        public List<Calificacion> Calificaciones { get; set; }
         public string comentario { get; set; }
         public List<ProfesorCurso> ProfesorCurso { get; set; }
         //public int CursoId { get; set; }

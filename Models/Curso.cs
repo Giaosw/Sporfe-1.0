@@ -13,5 +13,6 @@ namespace Sporfe_1._0.Models
         [NotMapped]
         public List<ProfesorCurso> ProfesorCurso { get; set; }
         
+        public List<Profesor> Profesores { get; set; }
     }
 }

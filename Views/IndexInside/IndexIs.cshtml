@@ -97,17 +97,18 @@
             <div class="col-md-10">
                 <div class="album py-5 bg-light">
         <div class="container">
-          <h1>Bienvenido "Aqui va el nombre del usuario"</h1>
+          <h1>Bienvenido</h1>
           <h2>Estos son los profesores mas puntuados de este mes</h2>
           <div class="row">
             @foreach(var Profesor in Model) {
+
                           <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                  <!--Aqui va imagen temporalmente usare iconos-->
+                  
                   
                   
                 <img src="@Profesor.Foto" class="card-img-top"height="200" width="40">
-                <a asp-area="" asp-controller="IndexInside" asp-action="Proinfo"  style="text-decoration: none;">
+                <a asp-route-id="@Profesor.IdProfesor" asp-controller="IndexInside" asp-action="Proinfo"  style="text-decoration: none;">
                 <div class="card-body">
                     <h5>@Profesor.Nombre</h5>  
                   <p class="card-text">Calificación General</p>

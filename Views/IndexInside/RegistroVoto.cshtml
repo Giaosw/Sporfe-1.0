@@ -1,0 +1,39 @@
+@model Profesor
+<h2>Formulario de registro de Voto</h2>
+@Html.ValidationSummary()
+<div class="ml-5">
+<form asp-action = "RegistroVotos" method="POST" >
+
+ 
+<div class="form-group">
+    <label asp-for = "IdCalificacion">Id Calificacion: </label>
+    <input type="number" class="form-control" id="IdCalificacion" name="IdCalificacion"/>
+</div>
+<div class="from-group">
+    <label asp-for = "promCalificacion">Promedio de Calificacion: </label>
+    <input type="number" class="form-control" id="promCalificacion" name="promCalificacion" />
+</div>
+<div class=" form-group">  
+    <label for="ensenanza">Calificación Enseñanza</label>
+    <input type="number" class="form-control" id="ensenanza" name="ensenanza"/>
+</div>
+<div class="from-group">
+    <label asp-for = "evaluacion">Evaluacion: </label>
+    <input type="number" class="form-control" id="evaluacion" name="evaluacion"/>
+<div class="from-group">
+    <label asp-for = "buenaGente">Buena Gente:</label>
+    <input type="number" class="form-control" id="buenaGente" name="buenaGente"/>
+</div>
+<div class="from-group">
+    <label asp-for = "promCalificacion">Promedio de Calificacion: </label>
+    <input type="text" class="form-control" asp-for = "IdCalificacion"/>
+</div>
+<button class="btn btn-outline-primary mt-3" type="submit" >Califica a este profesor</button>            
+              
+
+
+
+</form>
+ 
+                    
+                   

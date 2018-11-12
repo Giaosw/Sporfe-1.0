@@ -127,3 +127,104 @@ C:\Users\Alex\Desktop\multiplataforma\TrabajoFinal\Sporfe-1.0\obj\Debug\netcorea
 =======
 C:\Users\10.10.11.11\Downloads\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
 >>>>>>> e738180564684015da48d2ba28bb02d756a72b49
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csprojAssemblyReference.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CoreCompileInputs.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorAssemblyInfo.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorAssemblyInfo.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.AssemblyInfoInputs.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.AssemblyInfo.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.dll
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.pdb
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.TagHelpers.input.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.TagHelpers.output.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorCoreGenerate.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\IndexIs.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\Proinfo.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorTargetAssemblyInfo.cache
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorTargetAssemblyInfo.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.deps.json
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.runtimeconfig.json
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.runtimeconfig.dev.json
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.dll
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.pdb
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.Views.dll
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.Views.pdb
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\RegistroVoto.g.cshtml.cs
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.Views.pdb
+d:\Drive\KATHERINE\Yenita\USIL TRABAJOS\2018 - CICLO 6\Multiplataforma\Sporfe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CopyComplete
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.deps.json
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.runtimeconfig.json
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.dll
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.pdb
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.Views.dll
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.Views.pdb
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorAssemblyInfo.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorAssemblyInfo.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.AssemblyInfo.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.TagHelpers.input.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.TagHelpers.output.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorCoreGenerate.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\IndexIs.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\Proinfo.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\RegistroVoto.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorTargetAssemblyInfo.cache
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorTargetAssemblyInfo.cs
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.Views.pdb
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.dll
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.pdb
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CopyComplete
+C:\Users\Alex\Desktop\multiplataforma\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\ConfirmacionVoto.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.deps.json
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.runtimeconfig.json
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.runtimeconfig.dev.json
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.dll
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.pdb
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.Views.dll
+C:\Users\pr.profesor\Documents\Sprofe-1.0\bin\Debug\netcoreapp2.1\Sporfe 1.0.Views.pdb
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csprojAssemblyReference.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CoreCompileInputs.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorAssemblyInfo.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorAssemblyInfo.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.AssemblyInfoInputs.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.AssemblyInfo.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.TagHelpers.input.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.TagHelpers.output.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorCoreGenerate.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\ConfirmarRegistro.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\ConfirmacionVoto.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\IndexIs.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\Proinfo.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\IndexInside\RegistroVoto.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorTargetAssemblyInfo.cache
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.RazorTargetAssemblyInfo.cs
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.Views.pdb
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.dll
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.pdb
+C:\Users\pr.profesor\Documents\Sprofe-1.0\obj\Debug\netcoreapp2.1\Sporfe 1.0.csproj.CopyComplete

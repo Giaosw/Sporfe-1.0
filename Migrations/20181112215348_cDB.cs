@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Sporfe1._0.Migrations
 {
-    public partial class creacionDB : Migration
+    public partial class cDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -24,22 +24,6 @@ namespace Sporfe1._0.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Calificacion",
-                columns: table => new
-                {
-                    IdCalificacion = table.Column<int>(nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    promcalificacion = table.Column<int>(nullable: false),
-                    ensenanza = table.Column<int>(nullable: false),
-                    evaluacion = table.Column<int>(nullable: false),
-                    buenaGente = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Calificacion", x => x.IdCalificacion);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Curso",
                 columns: table => new
                 {
@@ -50,31 +34,6 @@ namespace Sporfe1._0.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Curso", x => x.IdCurso);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Profesor",
-                columns: table => new
-                {
-                    IdProfesor = table.Column<int>(nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nombre = table.Column<string>(nullable: false),
-                    Edad = table.Column<int>(nullable: false),
-                    Foto = table.Column<string>(nullable: true),
-                    correo = table.Column<string>(nullable: true),
-                    AniosExperiencia = table.Column<int>(nullable: false),
-                    calificacionIdCalificacion = table.Column<int>(nullable: true),
-                    comentario = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Profesor", x => x.IdProfesor);
-                    table.ForeignKey(
-                        name: "FK_Profesor_Calificacion_calificacionIdCalificacion",
-                        column: x => x.calificacionIdCalificacion,
-                        principalTable: "Calificacion",
-                        principalColumn: "IdCalificacion",
-                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -93,12 +52,55 @@ namespace Sporfe1._0.Migrations
                         principalTable: "Alumno",
                         principalColumn: "IdAlumno",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Profesor",
+                columns: table => new
+                {
+                    IdProfesor = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nombre = table.Column<string>(nullable: false),
+                    Edad = table.Column<int>(nullable: false),
+                    Foto = table.Column<string>(nullable: true),
+                    correo = table.Column<string>(nullable: true),
+                    AniosExperiencia = table.Column<int>(nullable: false),
+                    calificacionIdCalificacion = table.Column<int>(nullable: true),
+                    comentario = table.Column<string>(nullable: true),
+                    CursoIdCurso = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Profesor", x => x.IdProfesor);
                     table.ForeignKey(
-                        name: "FK_ProfesorAlumno_Profesor_IdProfesor",
-                        column: x => x.IdProfesor,
+                        name: "FK_Profesor_Curso_CursoIdCurso",
+                        column: x => x.CursoIdCurso,
+                        principalTable: "Curso",
+                        principalColumn: "IdCurso",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Calificacion",
+                columns: table => new
+                {
+                    IdCalificacion = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    promcalificacion = table.Column<int>(nullable: false),
+                    ensenanza = table.Column<int>(nullable: false),
+                    evaluacion = table.Column<int>(nullable: false),
+                    buenaGente = table.Column<int>(nullable: false),
+                    ProfesorIdProfesor = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Calificacion", x => x.IdCalificacion);
+                    table.ForeignKey(
+                        name: "FK_Calificacion_Profesor_ProfesorIdProfesor",
+                        column: x => x.ProfesorIdProfesor,
                         principalTable: "Profesor",
                         principalColumn: "IdProfesor",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -126,6 +128,16 @@ namespace Sporfe1._0.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Calificacion_ProfesorIdProfesor",
+                table: "Calificacion",
+                column: "ProfesorIdProfesor");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Profesor_CursoIdCurso",
+                table: "Profesor",
+                column: "CursoIdCurso");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Profesor_calificacionIdCalificacion",
                 table: "Profesor",
                 column: "calificacionIdCalificacion");
@@ -139,10 +151,30 @@ namespace Sporfe1._0.Migrations
                 name: "IX_ProfesorCurso_IdProfesor",
                 table: "ProfesorCurso",
                 column: "IdProfesor");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_ProfesorAlumno_Profesor_IdProfesor",
+                table: "ProfesorAlumno",
+                column: "IdProfesor",
+                principalTable: "Profesor",
+                principalColumn: "IdProfesor",
+                onDelete: ReferentialAction.Cascade);
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Profesor_Calificacion_calificacionIdCalificacion",
+                table: "Profesor",
+                column: "calificacionIdCalificacion",
+                principalTable: "Calificacion",
+                principalColumn: "IdCalificacion",
+                onDelete: ReferentialAction.Restrict);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropForeignKey(
+                name: "FK_Calificacion_Profesor_ProfesorIdProfesor",
+                table: "Calificacion");
+
             migrationBuilder.DropTable(
                 name: "ProfesorAlumno");
 
@@ -153,10 +185,10 @@ namespace Sporfe1._0.Migrations
                 name: "Alumno");
 
             migrationBuilder.DropTable(
-                name: "Curso");
+                name: "Profesor");
 
             migrationBuilder.DropTable(
-                name: "Profesor");
+                name: "Curso");
 
             migrationBuilder.DropTable(
                 name: "Calificacion");

@@ -9,14 +9,14 @@ using Sporfe_1._0.Models;
 namespace Sporfe1._0.Migrations
 {
     [DbContext(typeof(SprofeContext))]
-    [Migration("20181111025512_ModificacionDB")]
-    partial class ModificacionDB
+    [Migration("20181112215348_cDB")]
+    partial class cDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
+                .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Sporfe_1._0.Models.Alumno", b =>
@@ -46,6 +46,8 @@ namespace Sporfe1._0.Migrations
                     b.Property<int>("IdCalificacion")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<int?>("ProfesorIdProfesor");
+
                     b.Property<int>("buenaGente");
 
                     b.Property<int>("ensenanza");
@@ -55,6 +57,8 @@ namespace Sporfe1._0.Migrations
                     b.Property<int>("promcalificacion");
 
                     b.HasKey("IdCalificacion");
+
+                    b.HasIndex("ProfesorIdProfesor");
 
                     b.ToTable("Calificacion");
                 });
@@ -78,6 +82,8 @@ namespace Sporfe1._0.Migrations
 
                     b.Property<int>("AniosExperiencia");
 
+                    b.Property<int?>("CursoIdCurso");
+
                     b.Property<int>("Edad");
 
                     b.Property<string>("Foto");
@@ -92,6 +98,8 @@ namespace Sporfe1._0.Migrations
                     b.Property<string>("correo");
 
                     b.HasKey("IdProfesor");
+
+                    b.HasIndex("CursoIdCurso");
 
                     b.HasIndex("calificacionIdCalificacion");
 
@@ -124,8 +132,19 @@ namespace Sporfe1._0.Migrations
                     b.ToTable("ProfesorCurso");
                 });
 
+            modelBuilder.Entity("Sporfe_1._0.Models.Calificacion", b =>
+                {
+                    b.HasOne("Sporfe_1._0.Models.Profesor")
+                        .WithMany("Calificaciones")
+                        .HasForeignKey("ProfesorIdProfesor");
+                });
+
             modelBuilder.Entity("Sporfe_1._0.Models.Profesor", b =>
                 {
+                    b.HasOne("Sporfe_1._0.Models.Curso")
+                        .WithMany("Profesores")
+                        .HasForeignKey("CursoIdCurso");
+
                     b.HasOne("Sporfe_1._0.Models.Calificacion", "calificacion")
                         .WithMany()
                         .HasForeignKey("calificacionIdCalificacion");
